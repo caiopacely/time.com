@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cronometro para estudos</title>
+</head>
+<body>
+    
+    <div id="header">
+        <h1>Time.com</h1>     
+        <button onclick="darklight()" id="tema" action="white"><i class="fa-solid fa-circle-half-stroke"></i> </button>
+    </div>
+    <div id="main">
+        <section class="basePrincipal">
+            <div id="comandos">
+                <div id="buttons">
+                    <button id="play" onclick="play()" action="start">
+                     <i class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="marca" onclick="marcar()">
+                        <i class="fa-solid fa-flag"></i>
+                    </button> 
+                    <button id="reniciar" onclick="zerar()">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </button>  
+                </div>
+                <div id="marcas">
+                    
+                </div>                          
+            </div>
+            <div id="cronometro">
+                <div class="radiuTime">
+                    <h2 id="hor">00:</h2>
+                    <h2 id="min">00:</h2>
+                    <h2 id="seg">00:</h2>
+                    <h2 id="mile">00</h2>
+                </div>              
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

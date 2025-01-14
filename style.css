@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    
+}
+
+#header{
+    width: 100%;
+    height: 9vh;
+    background-color: #3d9ce7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#tema{
+    background-color: #3d9ce7 ;
+    font-size: 28px;
+    color: white;
+    margin-right: 4vw;
+    cursor: pointer;
+}
+#header h1{
+    color: rgb(254, 254, 254);
+    font-size: 20px;
+    margin-left: 8vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
+}
+#main{
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    
+
+
+}
+.basePrincipal{
+    width: 55%;
+    height: 65vh;
+    background-color: rgb(27, 27, 54);
+    border-radius:50px;
+    display: flex;
+    
+}
+#comandos{
+    width: 55%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #345b80; 
+}
+#cronometro{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 45%;
+    height: 65vh;
+    background-color: #3d9ce7;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    
+}
+.radiuTime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 100%;
+    border: 10px solid chartreuse; 
+    color: white;
+}
+
+#buttons button{
+    width: 6vw;
+    height: 6vh;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: #3d9ce7;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+#buttons button:hover{
+    background-color: rgb(53, 53, 53);
+    width: 6.2vw;
+    height: 6.2vh;
+    font-size: 35px;
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.5);
+    
+   
+}
+#buttons{
+    display: flex;
+    gap: 1vw;
+    width: 19vw;
+    height: 7vh;
+}
+#marcas{
+    color: white;
+}
